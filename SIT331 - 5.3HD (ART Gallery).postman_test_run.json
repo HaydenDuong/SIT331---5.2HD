@@ -1,0 +1,440 @@
+{
+	"id": "8f51b8cf-9bed-4005-b031-7049bce6ff83",
+	"name": "SIT331 - 5.3HD (ART Gallery)",
+	"timestamp": "2024-06-02T07:10:11.987Z",
+	"collection_id": "33822496-3251497d-5756-4691-9079-07da6b4656d5",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-06-02T07:10:09.939Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "77cd1d3b-c942-4a5b-b2fd-ce9a2d4e14a7",
+			"name": "Retrieve all artists",
+			"url": "http://localhost:3000/artists",
+			"time": 54,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				54
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e5cc3f5e-d276-40bb-ba17-defc06647ce5",
+			"name": "Retrieve a specific artist",
+			"url": "http://localhost:3000/artists/artist-001",
+			"time": 29,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				29
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7b642b24-70a0-4810-8a6d-98ed80ad7c38",
+			"name": "Add new artist",
+			"url": "http://localhost:3000/artists",
+			"time": 14,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				14
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cde598ed-b078-4c6d-8306-84cacf7f985a",
+			"name": "Update an existing artist",
+			"url": "http://localhost:3000/artists/artist-006",
+			"time": 2,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5c23773b-00ac-4c6a-a62a-a2648747de33",
+			"name": "Delete an existing artist",
+			"url": "http://localhost:3000/artists/artist-006",
+			"time": 2,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7abaa4f8-a5d4-4c43-afff-8032e26dc40f",
+			"name": "Retrieve all artifacts",
+			"url": "http://localhost:3000/artifacts",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				32
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5867937f-e0ff-43c8-b22d-6d1934edbfd8",
+			"name": "Retrieve a specific artist Copy",
+			"url": "http://localhost:3000/artifacts/artifact-002",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				28
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "82200116-c76a-4f1d-a9b2-8eaa1055face",
+			"name": "Add new artifact",
+			"url": "http://localhost:3000/artifacts",
+			"time": 2,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f7c86abf-7ea4-4bf4-b51c-90ef9b005c96",
+			"name": "Update an existing artist Copy",
+			"url": "http://localhost:3000/artifacts/artifact-006",
+			"time": 2,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "21bb74fc-a61e-43bf-bda7-fa99e3cd7b03",
+			"name": "Delete an existing artist Copy",
+			"url": "http://localhost:3000/artifacts/artifact-006",
+			"time": 2,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "dd00cdb3-b5d3-4b6b-934b-ec7c92b5f016",
+			"name": "Retrieve all users",
+			"url": "http://localhost:3000/users",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				28
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b8979164-bdaf-4efb-bd51-946a85365f35",
+			"name": "Retrieve all admins",
+			"url": "http://localhost:3000/users/admins",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				28
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cdf4a164-69df-4896-9287-18b099c7c1a9",
+			"name": "Retrieve all normal users",
+			"url": "http://localhost:3000/users/users",
+			"time": 40,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				40
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e633f5cf-f6a2-4f3b-8161-9cb72ce13659",
+			"name": "Retrieve a specific user",
+			"url": "http://localhost:3000/users/user-001",
+			"time": 50,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				50
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0af6d0a0-931d-4a63-bb8c-a34ea54a6e24",
+			"name": "Add new user",
+			"url": "http://localhost:3000/users",
+			"time": 78,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				78
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bcdfbb95-ff70-453e-b928-46ec176110f8",
+			"name": "Update info (no password)",
+			"url": "http://localhost:3000/users/user-004",
+			"time": 4,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "98dda25a-5e21-4d92-b92d-1b555b4f7796",
+			"name": "Change password",
+			"url": "http://localhost:3000/users/user-001/password",
+			"time": 3,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "41fbdb19-df69-48e3-81cc-943b239cbf45",
+			"name": "Delete a current user",
+			"url": "http://localhost:3000/users/user-004",
+			"time": 3,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3e80e0e1-15d7-4df0-bdf6-3e83a01adf1d",
+			"name": "Authentication",
+			"url": "http://localhost:3000/users/login",
+			"time": 76,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				76
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 477,
+	"collection": {
+		"requests": [
+			{
+				"id": "77cd1d3b-c942-4a5b-b2fd-ce9a2d4e14a7",
+				"method": "GET"
+			},
+			{
+				"id": "e5cc3f5e-d276-40bb-ba17-defc06647ce5",
+				"method": "GET"
+			},
+			{
+				"id": "7b642b24-70a0-4810-8a6d-98ed80ad7c38",
+				"method": "POST"
+			},
+			{
+				"id": "cde598ed-b078-4c6d-8306-84cacf7f985a",
+				"method": "PUT"
+			},
+			{
+				"id": "5c23773b-00ac-4c6a-a62a-a2648747de33",
+				"method": "DELETE"
+			},
+			{
+				"id": "7abaa4f8-a5d4-4c43-afff-8032e26dc40f",
+				"method": "GET"
+			},
+			{
+				"id": "5867937f-e0ff-43c8-b22d-6d1934edbfd8",
+				"method": "GET"
+			},
+			{
+				"id": "82200116-c76a-4f1d-a9b2-8eaa1055face",
+				"method": "POST"
+			},
+			{
+				"id": "f7c86abf-7ea4-4bf4-b51c-90ef9b005c96",
+				"method": "PUT"
+			},
+			{
+				"id": "21bb74fc-a61e-43bf-bda7-fa99e3cd7b03",
+				"method": "DELETE"
+			},
+			{
+				"id": "dd00cdb3-b5d3-4b6b-934b-ec7c92b5f016",
+				"method": "GET"
+			},
+			{
+				"id": "b8979164-bdaf-4efb-bd51-946a85365f35",
+				"method": "GET"
+			},
+			{
+				"id": "cdf4a164-69df-4896-9287-18b099c7c1a9",
+				"method": "GET"
+			},
+			{
+				"id": "e633f5cf-f6a2-4f3b-8161-9cb72ce13659",
+				"method": "GET"
+			},
+			{
+				"id": "0af6d0a0-931d-4a63-bb8c-a34ea54a6e24",
+				"method": "POST"
+			},
+			{
+				"id": "bcdfbb95-ff70-453e-b928-46ec176110f8",
+				"method": "PUT"
+			},
+			{
+				"id": "98dda25a-5e21-4d92-b92d-1b555b4f7796",
+				"method": "PUT"
+			},
+			{
+				"id": "41fbdb19-df69-48e3-81cc-943b239cbf45",
+				"method": "DELETE"
+			},
+			{
+				"id": "3e80e0e1-15d7-4df0-bdf6-3e83a01adf1d",
+				"method": "POST"
+			}
+		]
+	}
+}
